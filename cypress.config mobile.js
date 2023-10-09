@@ -5,10 +5,10 @@ module.exports = defineConfig({
     baseUrl: 'http://localhost:3000',
     retries: {
       openMode: 2,
-    }
-	},
-	env: {
-    viewportWidth: 1920,
-    viewportHeight: 1080,
+    },
+  },
+  env: {
+    viewportWidth: 360,
+    viewportHeight: 640,
   },
 });
