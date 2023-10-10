@@ -5,9 +5,9 @@ module.exports = defineConfig({
     baseUrl: 'http://localhost:3000',
     retries: {
       openMode: 2,
-    },
-  },
-  env: {
+    }
+	},
+	env: {
     viewportWidth: 360,
     viewportHeight: 640,
   },
